@@ -1,3 +1,7 @@
+repo
+//////////////////
+
+
 /* google font */
 
 .noto-serif-font {
@@ -106,7 +110,7 @@ button {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
->>>>>>> e62cfb23f9a4f4c746b570d90f7b32e3616c7dd1
+
 
 .badge {
   align-items: center;
@@ -288,6 +292,5 @@ footer {
   display: flex;
   align-items: center;
   gap: 15px;
-=======
->>>>>>> e62cfb23f9a4f4c746b570d90f7b32e3616c7dd1
+
 }
