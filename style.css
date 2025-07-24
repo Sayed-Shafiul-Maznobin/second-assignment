@@ -1,0 +1,39 @@
+/* google font */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 22px;
+}
+
+.nav-items a {
+  text-decoration: none;
+}
+.banner {
+  padding-top: 120px;
+  display: flex;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: bolder;
+}
