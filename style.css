@@ -58,7 +58,7 @@ nav {
 
 button {
   font-size: 16px;
-  width: 270px;
+  width: 100%;
   padding: 26px 50px;
   color: white;
   background-color: #e95a08;
@@ -66,32 +66,22 @@ button {
   width: 250px;
   align-items: start;
 }
+.card-container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  row-gap: 8px;
+  column-gap: 10px;
+}
 .card {
+  width: 100%;
+  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.card-container {
-
-    margin-top: 90px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 49px;
-}
-.our-plants {
-  max-width: 100%;
-  max-height: 100%;
-  border: 2px solid red;
-}
-.our-plants img {
-  max-width: 270px;
-  height: 322px;
-}
-
-.card {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
 }
 
 .badge {
@@ -102,6 +92,13 @@ button {
     padding-right: 60px;
   }
   display: flex;
+}
+.badge1 {
+  width: 286px;
+  height: 286px;
+  position: relative;
+  bottom: 10px;
+  right: 280px;
 }
 
 .badge h2 {
@@ -224,4 +221,46 @@ button {
     font-size: 30px;
     font-weight: bold;
   }
+}
+
+.join {
+  width: 1400px;
+  overflow-x: hidden;
+  /* position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0; */
+  background-image: url("./assets/news-letter-bg.png");
+  width: 1440px !important;
+  margin-left: 0px !important;
+}
+.join h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.footer1 p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer2,
+.footer3 {
+  color: rgba(0, 0, 0, 0.5);
+  ul {
+    list-style: none;
+  }
+  line-height: 40px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+.footer4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
