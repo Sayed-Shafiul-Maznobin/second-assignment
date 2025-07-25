@@ -141,6 +141,7 @@ button {
 .left {
   border-radius: 15px;
   background-image: url("./assets/deal-bloom.png");
+  background-repeat: no-repeat;
 
   width: 360px;
   height: 206px;
@@ -166,6 +167,8 @@ button {
 .leftana {
   border-radius: 15px;
   background-image: url("./assets/deal-ana.png");
+    background-repeat: no-repeat;
+
 
   width: 360px;
   height: 206px;
@@ -187,8 +190,7 @@ button {
   filter: grayscale(30%);
 }
 
-
-
+ 
 
 
 
