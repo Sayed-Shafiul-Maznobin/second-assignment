@@ -53,7 +53,7 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   justify-self: center;
-  
+
   max-width: 1140px;
 }
 
@@ -163,12 +163,10 @@ button {
   filter: grayscale(30%);
 }
 
-
 .leftana {
   border-radius: 15px;
   background-image: url("./assets/deal-ana.png");
-    background-repeat: no-repeat;
-
+  background-repeat: no-repeat;
 
   width: 360px;
   height: 206px;
@@ -189,13 +187,6 @@ button {
 .leftana {
   filter: grayscale(30%);
 }
-
- 
-
-
-
-
-
 
 .discount {
   display: flex;
@@ -319,7 +310,14 @@ input {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.footer2,
+.footer2 {
+  color: rgba(0, 0, 0, 0.5);
+  ul {
+    list-style: none;
+  }
+  line-height: 40px;
+}
+
 .footer3 {
   color: rgba(0, 0, 0, 0.5);
   ul {
@@ -340,81 +338,100 @@ footer {
   gap: 15px;
 }
 
-@media screen and (max-width:576px) {
-  body{
+.respfooter {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+  body {
     background-color: rgb(188, 230, 207);
-  }  
-.responsive-hide{
-  display: none;
-}
-.banner{
-  display: flex;
-  flex-direction: column-reverse;
-}
-.our-plants{
-  justify-content: center;
-  align-items: center;
-  padding: 0 10px;
-}
-
-
-
-.card-container {
-  margin-top: 30px;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  row-gap: 8px;
-  column-gap: 10px;
-  margin-bottom: 150px;
-}
-.card {
-  width: 50%;
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
-
-.badge1{
-  display: none;
-}
-.badge-full{
-  display: flex;
-  flex-direction: column;
-}
- .badge2{
-  margin-top: 400px;
- }
-
-.latest{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-}
-
-.discount{
-  display: grid;
-  grid-template-columns: 1,1fr;
-}
-.right{
-   width: 360px;
-  height: 206px;
-  border: 2px solid red;
-  h3{
-    font-size: 10px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
   }
-}
+  .responsive-hide {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .our-plants {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .card-container {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    row-gap: 8px;
+    column-gap: 10px;
+    margin-bottom: 150px;
+  }
+  .card {
+    width: 50%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .badge1 {
+    display: none;
+  }
+  .badge-full {
+    display: flex;
+    flex-direction: column;
+  }
+  .badge2 {
+    margin-top: 400px;
+  }
+
+  .latest {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .discount {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+  }
+  .right {
+    width: 360px;
+    height: 206px;
+    border: 2px solid red;
+    h3 {
+      font-size: 10px;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+    }
+  }
+
+  .respfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: flex-start;
+  }
 
 
 
+
+
+
+
+
+
+
+  .footer2,.footer3{
+   position: relative;
+   left: -40px;
+  }
 }
