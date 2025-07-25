@@ -362,7 +362,6 @@ footer {
 
 @media screen and (max-width: 576px) {
   body {
-    background-color: rgb(188, 230, 207);
   }
   .responsive-hide {
     display: none;
@@ -477,5 +476,10 @@ footer {
 
   .resbtn {
     justify-self: center;
+  }
+
+  .banner-image {
+    position: relative;
+    right: 90px;
   }
 }
