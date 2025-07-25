@@ -414,6 +414,57 @@ footer {
     }
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input::placeholder {
+  width: 250px;
+  font-size: 15px;
+  height: 800px;
+}
+input {
+  border: none;
+  border-radius: 0px;
+  width: 150px;
+  height: 97%;
+}
+
+.button1 {
+  padding-right: 10px;
+  font-size: 16px;
+   padding: 26px 50px;
+  color: white;
+  background-color: #e95a08;
+  border: none;
+  width: 190px;
+  align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .respfooter {
     display: flex;
     flex-direction: column;
@@ -422,16 +473,16 @@ footer {
   }
 
 
-
-
-
-
-
-
-
+ 
 
   .footer2,.footer3{
    position: relative;
    left: -40px;
   }
+
+
+
+ 
+
+
 }
