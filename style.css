@@ -27,6 +27,11 @@ nav {
   gap: 22px;
 }
 
+
+.res1ana{
+  display: none;
+}
+
 .nav-items a {
   text-decoration: none;
 }
@@ -419,9 +424,15 @@ footer {
 
 
 
+.hiddenzabo{
+  visibility: hidden;
+}
 
 
-
+.res1ana{
+  background-image: url("./assets/deal-zabo.png");
+  display: block;
+}
 
 
 
@@ -430,7 +441,7 @@ footer {
 
 input::placeholder {
   width: 250px;
-  font-size: 15px;
+  font-size: 17px;
   height: 800px;
 }
 input {
@@ -452,19 +463,7 @@ input {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
   .respfooter {
     display: flex;
     flex-direction: column;
@@ -472,17 +471,12 @@ input {
     justify-content: flex-start;
   }
 
-
  
-
   .footer2,.footer3{
    position: relative;
    left: -40px;
   }
 
-
-
  
-
 
 }
