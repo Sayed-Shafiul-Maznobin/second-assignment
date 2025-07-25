@@ -8,6 +8,10 @@
   font-variation-settings: "wdth" 100;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 .without,
 footer {
   max-width: 1140px;
@@ -27,8 +31,7 @@ nav {
   gap: 22px;
 }
 
-
-.res1ana{
+.res1ana {
   display: none;
 }
 
@@ -71,24 +74,6 @@ button {
   border: none;
   width: 250px;
   align-items: start;
-}
-.card-container {
-  margin-top: 30px;
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  row-gap: 8px;
-  column-gap: 10px;
-  margin-bottom: 150px;
-}
-.card {
-  width: 100%;
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .badge-full {
@@ -350,6 +335,32 @@ footer {
   justify-content: space-between;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 8px;
+  margin-bottom: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.resbtn {
+  justify-self: center;
+  border: 2px solid green;
+}
+
 @media screen and (max-width: 576px) {
   body {
     background-color: rgb(188, 230, 207);
@@ -365,25 +376,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0 10px;
-  }
-
-  .card-container {
-    margin-top: 30px;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    row-gap: 8px;
-    column-gap: 10px;
-    margin-bottom: 150px;
-  }
-  .card {
-    width: 50%;
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .badge1 {
@@ -419,51 +411,38 @@ footer {
     }
   }
 
+  .hiddenzabo {
+    visibility: hidden;
+  }
 
+  .res1ana {
+    background-image: url("./assets/deal-zabo.png");
+    display: block;
+  }
 
+  input::placeholder {
+    width: 250px;
+    font-size: 17px;
+    height: 800px;
+  }
+  input {
+    border: none;
+    border-radius: 0px;
+    width: 150px;
+    height: 97%;
+  }
 
+  .button1 {
+    padding-right: 10px;
+    font-size: 16px;
+    padding: 26px 50px;
+    color: white;
+    background-color: #e95a08;
+    border: none;
+    width: 190px;
+    align-items: start;
+  }
 
-
-.hiddenzabo{
-  visibility: hidden;
-}
-
-
-.res1ana{
-  background-image: url("./assets/deal-zabo.png");
-  display: block;
-}
-
-
-
-
-
-
-input::placeholder {
-  width: 250px;
-  font-size: 17px;
-  height: 800px;
-}
-input {
-  border: none;
-  border-radius: 0px;
-  width: 150px;
-  height: 97%;
-}
-
-.button1 {
-  padding-right: 10px;
-  font-size: 16px;
-   padding: 26px 50px;
-  color: white;
-  background-color: #e95a08;
-  border: none;
-  width: 190px;
-  align-items: start;
-}
-
-
- 
   .respfooter {
     display: flex;
     flex-direction: column;
@@ -471,12 +450,43 @@ input {
     justify-content: flex-start;
   }
 
- 
-  .footer2,.footer3{
-   position: relative;
-   left: -40px;
+  .footer2,
+  .footer3 {
+    position: relative;
+    left: -40px;
   }
 
- 
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 5px;
+  column-gap: 8px;
+  margin-bottom: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.resbtn {
+  justify-self: center;
+  border: 2px solid green;
+}
+
+
+
+
+
 
 }
