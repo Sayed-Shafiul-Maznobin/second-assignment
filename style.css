@@ -363,7 +363,6 @@ footer {
 
 @media screen and (max-width: 576px) {
   body {
-    background-color: rgb(188, 230, 207);
   }
   .responsive-hide {
     display: none;
@@ -402,7 +401,7 @@ footer {
   .right {
     width: 360px;
     height: 206px;
-    border: 2px solid red;
+
     h3 {
       font-size: 10px;
       display: flex;
@@ -459,6 +458,7 @@ footer {
 
 
 .card-container {
+  margin: auto auto auto auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 5px;
@@ -481,11 +481,13 @@ footer {
 
 .resbtn {
   justify-self: center;
-  border: 2px solid green;
+ }
+
+
+.banner-image{
+  position: relative;
+   right: 30px;
 }
-
-
-
 
 
 
